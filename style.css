@@ -1,0 +1,199 @@
+/*Background Styles*/ 
+
+body {
+background: url(https://www.itl.cat/pngfile/big/15-153307_jungle-for-kids-wallpaper-wide-jungle-clipart-background.jpg);
+font-family: 'Gotu', sans-serif;
+max-width: 100%;
+height:auto;
+}
+
+/*Main Content*/
+
+#maintext {
+  background-color: #ffffff;
+  border: 0.2vw solid black;
+  background: rgba(255, 255, 255, 0.7);
+  width:80%;
+  margin: 0 auto;
+  text-align: center
+}
+
+.logo {
+   max-width: 80%;
+}
+
+/*Text Styles*/
+
+p {
+font-size: 1.6vw;
+color: #2c3e50;
+line-height: 1.5;
+text-align: left; 
+      /*Text Boarder Styles*/
+width: 97%; 
+padding-top: 1vw; 
+margin: auto; 
+ } 
+
+li {
+color: darkblue;
+font-weight: normal; 
+font-size: 1.6vw;
+text-align: left;
+ }
+
+h1 {color: #ff5733;
+text-align: center;
+font-size: 4.3vw;
+font-weight: bold;
+text-decoration: underline; 
+margin: 0.3vw; 
+}
+
+h2 {color: darkblue;
+text-align: center;
+font-weight: bold;
+text-decoration: underline; 
+font-size: 2.5vw;
+margin: 0.5vw; 
+}
+
+h3 {
+font-size: 1.8vw;
+color: #2c3e50;
+font-weight: bold;
+text-decoration: underline; 
+text-align: center; 
+      /*Text Boarder Styles*/
+width: 90%; 
+padding-top: 0.8vw;
+padding-bottom: 0.1vw;
+margin: auto;
+ } 
+
+h4 {color: darkblue;
+text-align: center;
+font-size: 2vw;
+font-weight: bold;
+font-style: italic;
+text-decoration: underline; 
+}
+
+h5 {
+font-size: 2.5vw;
+color: #FF0000;
+font-weight: bold;
+line-height: 2vw;
+text-align: center; 
+      /*Text Boarder Styles*/
+width: 90%; 
+padding-top: 5px; 
+margin: auto; 
+ } 
+
+h6 {
+font-size: 1.8vw;
+color: #2c3e50;
+line-height: 0.2vw;
+padding-top: 0.2vw;
+text-align: center; 
+ } 
+
+
+hr {
+color: #2c3e50;
+width: 80%; 
+}
+
+/*Link Styles*/
+
+a {
+  color: #654600;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+/*Div Styles*/
+
+div{
+margin: 1vw;
+}
+
+.divpic{
+max-width: 45vw;
+border: solid 0.2vw #000000;
+border-radius: 6px;
+      /*Centering the images in MainText Div*/
+display: inline-block;
+}
+
+.divfacts{
+border: solid 0.2vw #000000;
+border-radius: 6px;
+background: rgba(255, 255, 255, 0.7);
+font-size: 2vw;
+line-height: 2;
+font-weight: bold;
+      /*Text Boarder Styles*/
+display: inline-block;
+width: 55vw;
+margin: 3vw; 
+
+}
+
+/*DogAge Box Style*/ 
+
+#DogAgeForm{
+border: solid 0.2vw #000000;
+border-radius: 2vw;
+background: rgba(255, 255, 255, 0.7);
+line-height: 3vw;
+font-weight: bold;
+      /*Text Boarder Styles*/
+display: inline-block;
+}
+
+input[type=text] {
+  width: auto;
+  padding-top: 2%;
+  margin: 1vw 2vw;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+} 
+
+input[type=button] {
+  background-color: #FFA500;
+  border: none;
+  color: white;
+  padding: 1vw 3vw;
+  text-decoration: none;
+  margin: auto;
+  cursor: pointer;
+}
+
+/*Button Styles*/ 
+
+.buttons {
+text-align: center;
+padding-bottom: 2vw;
+
+}
+
+.button {
+background: #FF8C00;
+color: #FFFFFF;
+border: 0.5vw solid #FF0000;
+border-radius: 2.4vw;
+font-family: Calibri;
+font-size: 4.5vw;
+text-decoration: none; 
+margin: 2vw; 
+} 
+
+.button:hover {
+background: #FF0000;
+}
